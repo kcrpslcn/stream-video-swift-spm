@@ -32,7 +32,6 @@ let package = Package(
             name: "StreamVideoWrapper",
             dependencies: [
                 .target(name: "StreamVideo"),
-                .product(name: "StreamWebRTC", package: "stream-video-swift-webrtc")
             ]
         ),
         .binaryTarget(name: "StreamVideo",
